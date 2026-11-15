@@ -1,0 +1,161 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Adventure Park Challenge</title>
+            <link rel="stylesheet"
+            
+        </head>
+        <style>
+            body {
+                background-color: rgb(50, 83, 53);
+                font-family: Arial, sans-serif;
+                text-align: center;
+                padding: 30px;
+                color: antiquewhite;
+            }
+            h1 {
+                color: red;
+                font-size:30px;
+                
+            }
+         
+            h2 {
+                color: white;
+                margin-top: 20px;
+                   padding: 10px 6px;
+                 border-top: 2px solid black;
+                
+            }
+            h3{
+                color: white;
+                margin-top: 20px;
+                
+            }
+            h4 {
+                color: white;
+                font-size: 20px;
+            }
+            
+            small {
+                color: #bbbbbb;
+            }
+            l1{
+                font-size: 50px;
+            }
+            l2{
+                font-size: 40px;
+            }
+            l3{
+                font-size: 30px;
+            }
+            l4{
+                font-size: 20px;
+            }
+            d1 {
+                color: yellow;
+                margin-top: 20px;
+            }
+            d2{
+                color: black;
+                  margin-top: 20px;
+            }
+             d3{
+                color: rgb(5, 253, 59);
+                  margin-top: 20px;
+            }
+            d4{
+                 color: rgb(253, 5, 220);
+                  margin-top: 20px;
+                  border-bottom: 2px solid black;
+            }
+            dl{
+                 color: rgb(252, 233, 151);
+                  margin-top: 20px;
+            }
+            dt{
+                 color: rgb(182, 148, 0);
+                  margin-top: 20px;
+                  margin-left: 100px;
+                  text-align: left;
+            }
+            dd{
+                 color: white;
+                 margin-left: 100px;
+                  text-align: left;
+            }
+             dd1{
+                 color: white;
+               
+                  text-align: center;
+            }
+            blockquote{
+                border-left: 4px solid #ffcc33;
+                color: rgb(248, 129, 129);
+                  margin-top: 20px;
+                  
+                  display: inline-block;
+                  text-align: left;
+            }
+            pre{
+                color: rgb(70, 165, 90);
+                  margin-top: 20px;
+                  text-align: left;
+                  code{
+                    color:rgb(44, 41, 37)
+                  }
+            }
+            </style>
+            <body>
+                <h1>Welcome to Adventure Park Challenge!</h1>
+                <p >Get ready to explore rides, challenges, and safety missions.</p>
+                <h2>Adventure levels</h2>
+                
+                <l1><p>Extreme Explorer</p></l1>
+                <l2><p>Mountain Rider</p></l2>
+                <l3><p>Trail Runner</p></l3>
+                <l4><p>New Adventurer</p></l4>
+                <h2>Vistor passes</h2>
+                <h3>Aarav <small>Pass: Extreme Explorer</small></h3>
+                <h3>Mia <small>Pass: Mountain Rider</small></h3> 
+                <h3>Zara <small>Pass: Trail runner</small></h3>
+                <h2>Ride Dictionary</h2>
+                <dl>
+                <dt>Sky Coaster</dt>
+                <dd>A fast ride that takes visitors high above the park.</dd>
+                </dl>
+                <dl>
+                    <dt>Trasher trail</dt>
+                    <dd>A mystery path where visitors solve clues to find treasure.</dd>
+                </dl>
+                <dl>
+                    <dt>Trasher trail</dt>
+                    <dd>A water ride that moves quickly through twists and turns.</dd>
+                </d1>
+
+                <h2>Safety Mission</h2>
+                <dd1>Please report to <mark>Gate 3</mark> before the challenge begins.</dd1><br>
+                <br>
+                <dd1>The rescue drill will happen near the <mark>River zone</mark></dd1>
+                
+                <p>Start the coaster: <code>ride.start("Sky Coaster")</code></p>
+
+                <p><abbr title="Adventure Park Safety Team">APST</abbr> checks every ride before opening.</p>
+
+                <pre>
+                10:00 AM  -  Gate Entry
+                11:00 AM  -  Sky Coaster
+                12:00 PM  -  Treasure Trail
+                02:00 PM - River Rush
+                03:00 PM - Final Adventure Badge
+                </pre>
+
+                <blockquote class="blockquote">
+                <p>"Adventure begins when you try something new."</p>
+                <footer class="blockquote-footer">Adventure Park Team</footer>
+                </blockquote>
+
+                </body>
+
+                </html>
